@@ -17,4 +17,5 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: Build
-        path: dist
+        src_path: dist
+        dst_path: /.
